@@ -14,9 +14,16 @@ ul{
     list-style: none;
 }
 .container{
-    height: 1000px;
+    height: 600px;
     width: 1900px;
-    border: solid 1px blue;
+    display: flex;
+    margin: auto;
+    padding-bottom: 30px;
+    
+}
+.container2{
+    height: 600px;
+    width: 1900px;
     display: flex;
     margin: auto;
 }
@@ -51,11 +58,11 @@ ul{
     color: black;
     padding-left: 10px;
 }
-
 .photo{
     height: 500px;
     width: 350px;
 }
+
 /* Relaxed Fit */
 .relaxed{
     margin: 0;
@@ -67,16 +74,13 @@ ul{
 /* /Relaxed Fit */
 
 
-
 /* Roses Tee */
 .roses{
     margin: 0;
     display: inline;
     
 }
-.roses_tee{
 
-}
 /* /Roses Tee */
 
 
@@ -84,56 +88,14 @@ ul{
 .colors{
     display: inline;
 }
-.zucchero_filato{
-   
-}
 /* /Zucchero Filato */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Roses Tee 
-.roses{ 
-    margin: 0;
-    padding: 0;
-    display: inline;
-    height: 400px;
+/* Tee Unisex */
+.tee_unisex{
+    padding-left: 400px;
 }
-.colori{
-    margin: 0;
-    padding: 0;
-    display: inline;
-    height: 400px;
-    
+/* /Tee Unisex */
+.text{
+    margin-top: -10px;
 }
-/* /Relaxed Fit */
-
-
-/* Roses Tee */
-/* /Roses Tee */
-
-/* /Site Main */
-
-                                                                                                                                                                                                                
-
-
