@@ -1,0 +1,37 @@
+:root{
+    --bool-header: #ff6900;
+    --bool-backg-photo: #eeefee;
+    --bool-footer: #1b1b1a;
+    --bool-header-text: #ffffff;
+}
+body{
+    margin: 0;
+}
+
+
+/* Site Header */
+.lista{
+    height: 75px;
+    display: flex;
+    background-color: var(--bool-header);
+    justify-content: space-between;                                      
+}
+.logo{
+    display: flex;
+    align-self: center;
+    width: 200px;
+    padding-left: 300px;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    color: var(--bool-header-text);
+}
+/* Site Header */
+
+/* Site Main */
+                                                                                                                                                                                                                
+
+
