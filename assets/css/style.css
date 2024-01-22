@@ -3,24 +3,35 @@
     --bool-backg-photo: #eeefee;
     --bool-footer: #1b1b1a;
     --bool-header-text: #ffffff;
+    --bool-sost-text: #018100;
+    --bool-disc-text:#fe0100;
+
 }
 body{
     margin: 0;
 }
-
-
+ul{
+    list-style: none;
+}
+.container{
+    height: 1000px;
+    width: 1900px;
+    border: solid 1px blue;
+    display: flex;
+    margin: auto;
+}
 /* Site Header */
 .lista{
     height: 75px;
     display: flex;
     background-color: var(--bool-header);
-    justify-content: space-between;                                      
+    justify-content: space-between; 
+    padding-left: 400px;                                     
 }
 .logo{
     display: flex;
     align-self: center;
-    width: 200px;
-    padding-left: 300px;
+    width: 100px;
 }
 .section{
     display: flex;
@@ -29,9 +40,100 @@ body{
     width: 200px;
     color: var(--bool-header-text);
 }
-/* Site Header */
+/* /Site Header */
 
 /* Site Main */
+.disc_price{
+    display: flex;
+    color: var(--bool-disc-text);
+}
+.norm_price{
+    color: black;
+    padding-left: 10px;
+}
+
+.photo{
+    height: 500px;
+    width: 350px;
+}
+/* Relaxed Fit */
+.relaxed{
+    margin: 0;
+    display: inline;
+}
+.relaxed_fit{
+    padding-left: 400px;
+}
+/* /Relaxed Fit */
+
+
+
+/* Roses Tee */
+.roses{
+    margin: 0;
+    display: inline;
+    
+}
+.roses_tee{
+
+}
+/* /Roses Tee */
+
+
+/* Zucchero Filato */
+.colors{
+    display: inline;
+}
+.zucchero_filato{
+   
+}
+/* /Zucchero Filato */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Roses Tee 
+.roses{ 
+    margin: 0;
+    padding: 0;
+    display: inline;
+    height: 400px;
+}
+.colori{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    height: 400px;
+    
+}
+/* /Relaxed Fit */
+
+
+/* Roses Tee */
+/* /Roses Tee */
+
+/* /Site Main */
+
                                                                                                                                                                                                                 
 
 
