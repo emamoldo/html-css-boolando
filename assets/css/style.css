@@ -14,15 +14,13 @@ ul{
     list-style: none;
 }
 .container{
-    height: 600px;
+    height: 750px;
     width: 1900px;
     display: flex;
     margin: auto;
-    padding-bottom: 30px;
-    
 }
 .container2{
-    height: 600px;
+    height: 750px;
     width: 1900px;
     display: flex;
     margin: auto;
@@ -33,12 +31,12 @@ ul{
     display: flex;
     background-color: var(--bool-header);
     justify-content: space-between; 
-    padding-left: 400px;                                     
+    padding-left: 900px;                                     
 }
 .logo{
     display: flex;
     align-self: center;
-    width: 100px;
+    width: 200px;
 }
 .section{
     display: flex;
@@ -59,8 +57,8 @@ ul{
     padding-left: 10px;
 }
 .photo{
-    height: 500px;
-    width: 350px;
+    height: 625px;
+    width: 450px;
 }
 
 /* Relaxed Fit */
@@ -98,4 +96,16 @@ ul{
 /* /Tee Unisex */
 .text{
     margin-top: -10px;
+}
+
+
+.text_footer{
+    background-color: var(--bool-footer);
+    height: 100px;
+    color: var(--bool-header-text);
+    display: flex;
+    align-items: center;
+}
+.testo{
+    display: flex;
 }
